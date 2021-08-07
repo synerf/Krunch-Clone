@@ -1,0 +1,85 @@
+.container {
+  padding: 0 60px;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.9rem;
+  background: #4d8cf5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 8px;
+  font-weight: 600;
+}
+
+.btn-outline {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.9rem;
+  border: 1px solid #4d8cf5;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #333;
+  transition: 0.5s;
+}
+
+.btn-outline:hover {
+  background: #4d8cf5;
+  transition: 0.5s;
+}
+
+/* Section header */
+.section-header {
+  color: #333;
+  text-align: center;
+  margin: 40px auto;
+}
+.section-header h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.section-header p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dash {
+  border-bottom: 2px solid #4d8cf5;
+  width: 70px;
+  margin: 20px auto 0px auto;
+}
+
+.btn-btw-sections {
+  text-align: center;
+  padding: 35px;
+}
+
+.btn-btw-sections p {
+  color: #444;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.btn-btw-sections .btn-outline {
+  color: #333;
+}
+
+.btn-btw-sections .btn-outline:hover {
+  color: #fff;
+}
+
+.space-btw-section {
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
